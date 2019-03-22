@@ -1,0 +1,42 @@
+   .btn-round {
+   	 border-radius: 30px !important;
+   }
+
+   #about {
+   	background-image: url(../img/geometric.jpg);
+   }
+   
+   #cta {
+   	background-repeat: no-repeat;
+   	background-size: cover;	
+   	 
+  background: 
+    /* top, transparent half-black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url(../img/table1.jpg);
+}
+   
+
+   #faq {
+   	background-repeat: no-repeat;
+   	background-size: cover;
+   	background: 
+     /* top, transparent half-black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url(../img/table.jpg);
+   }
+
+   .btn-link {
+    font-weight: 400;
+    color: #f8f9fa;;
+}
+
+
