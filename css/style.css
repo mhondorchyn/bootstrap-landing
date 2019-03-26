@@ -1,9 +1,16 @@
    .btn-round {
    	 border-radius: 30px !important;
    }
+   
 
    #about {
-   	background-image: url(../img/geometric.jpg);
+   	background:
+   	 /* top, transparent half-black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */url(../img/geometric.jpg);
    }
    
    #cta {
@@ -40,3 +47,33 @@
 }
 
 
+/*
+FOOTER
+*/
+
+.site_footer {
+    position: relative;
+    padding: 100px 0 ;
+    margin: 150px 0 0;
+    background: #888;
+    z-index: 2;
+}
+.site_footer:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    top: -100px; left: -25px; right: -10px;
+    height: 200px;
+    background: #000;
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(-5deg);
+}
+.site_footer  {
+    color: #eee;
+     font-size: 18px;
+    text-transform: uppercase;
+    }
+
+
+   
